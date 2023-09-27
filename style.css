@@ -1,0 +1,197 @@
+:root {
+    --main-bg-color: rgb(2, 7, 17);
+  }  
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: var(--main-bg-color);
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.p1{
+    margin-top: 2vh;
+    margin-left: 1vw;
+}
+.pic{
+    height: 5vh;
+}
+.box1{
+    padding: 0 3vw;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+}
+nav ul li a:hover{
+    font-weight: bolder;
+    color: #FF9900;
+    cursor: pointer;
+}
+#search{
+    height: 6vh;
+    width: 30vw;
+    border: 2px solid;
+    border-color: #FF9900;
+    border-radius: 0.5vw;
+    padding: 0 1vw;
+}
+.btn{
+    height: 6vh;
+    width: 4vw;
+    background-color: white;
+    border-radius: 0.5vw;
+}
+.btn:hover{
+    background-color: #FF9900;
+    cursor: pointer;
+}
+#lan{
+    height: 4vh;
+    margin-left: 2vw;
+    border: 2px solid #FF9900;
+    border-radius: 0.5vw;
+}
+#lan:hover{
+    cursor: pointer;
+}
+.box2{
+    margin-left: 2vw;
+    display: flex;
+    align-items: center;
+}
+#sign{
+    width: 5.5vw;
+    color: white;
+    background-color: black;
+    border: black;
+    font-size: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+#sign:hover{
+    border: 2px solid white;
+}
+.b3{
+    margin-left: 2vw;
+}
+.pic2{
+    margin-left: 3vw;
+}
+.p2{
+    height: 10vh;
+}
+.pic2:hover{
+    border:1px solid white;
+    cursor: pointer;
+}
+.container{
+    height: 10vh;
+    color: white;
+    background-color: rgb(51, 63, 85);
+    font-size: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container nav ul{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+}
+.col{
+    margin: 1.2vw;
+}
+.col:hover{
+    color: #FF9900;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.slider{
+    width: 70vw;
+    margin: auto;
+    margin-top: 2vh;
+}
+.ban{
+    height: 50vh;
+    width: 70vw;
+}
+.things{
+    margin-top: 5vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    display: flex;
+    justify-content: space-between;
+}
+.choice{
+    height: 70vh;
+    width: 30vw;
+    background-color: rgb(217, 255, 167);
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+}
+.items{
+        height: 10vh;
+        width: 10vw;
+        margin: 2vw;
+}
+.items:hover{
+    height: 15vh;
+    width: 12vw;
+    cursor: pointer;
+}
+.text{
+        text-align: center;
+}
+.home{
+    height: 70vh;
+    width: 30vw;
+    background-color: rgb(255, 246, 167);
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+}
+.grocery{
+    height: 70vh;
+    width: 30vw;
+    background-color: rgb(255, 199, 167);
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+}
+body{
+    background-color: gainsboro;
+}
+.he{
+    height: 10vh;
+    padding-left: 1vw;
+    grid-column: 1/3;
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.he:hover{
+    background-color: #FF9900;
+    cursor: pointer;
+}
+footer{
+    margin-top: 2vw;
+    height: 10vh;
+    color: white;
+    background-color: var(--main-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copy{
+    text-align: center;
+    font-size: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.text{
+    font-size: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
